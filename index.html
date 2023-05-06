@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, inital-scale=1.0">
+    <title>FeierTage.de</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <style>
+    </style>
+  </head>
+  <body>
+    <div>
+      <img class="logo" src="logo.png">
+    </div>
+    <!--<div class="navigation" style="position: sticky; top: 0;">
+      <ul>
+        <li><a href="./index.html">Startseite</a></li>
+        <li><a href="./sites/project.html">Projektunterlagen</a></li> 
+        <li class="dropdown"><a href="javascript:void(0)" class="dropdown_headline">Coachings</a>
+          <div class="dropdown_content">
+            <a href="./sites/tdd.html">Modulgruppe 1: Technische Dimension der Digitalisierung (Paulin)</a>
+            <a href="./sites/management.html">Modulgruppe 2: Verwaltungsmanagement (Schenk)</a>
+            <a href="./sites/rights.html">Modulgruppe 3: Rechtliche Grundlagen der öffentlichen Verwaltung (Klink-Straub)</a>
+            <a href="./sites/leadership.html">Modulgruppe 4: Digital Leadership (Schneider)</a>
+          </div>
+        </li>                
+      </ul>
+    </div>!-->
+    <div class="search" style="position: sticky; top: 0;">
+      <form class="searchform" action="inhaltsserver">
+        <table>
+        Wo wollen Sie feiern?: <input type="text" name="plz" placeholder="PLZ eingeben">
+        Umkreis: <input type="number" name="km" placeholder="Km angeben">
+        Welche Art von Fest suchen Sie? <select name="art">
+                                          <option value="music">Konzert</option>
+                                          <option value="festival">Festival</option>
+                                          <option value="family">Familien</option>
+                                          <option value="young">U30-Party</option>
+                                          <option value="old">Ü30-Party</option>
+                                        </select>
+          <button style="float: right;">Suchen</button>
+        </table>                                        
+      </form>
+    </div>
+    <div class="leftsite">
+      <!--Das Fenster zur Anmeldung wird geöffnet-->
+      <button onclick="dialog.showModal()">Anmelden</button>
+      <dialog id="dialog">
+        <div class="dialog-header">
+          <h2>Login</span></h2><p onclick="dialog.close()" style="text-align: right;">&#10006</p>
+        </div>        
+        <form action="www.google.de" style="font-size: 25px; padding: 5px; text-align: center;" method="dialog">
+          <br><h3 style="color: #ccac00; font-size: 40px; font-family: cursive;">FeierTage.online</h3><br>
+          
+          <input style="width: 100%; margin: 10px 0 5px 0; padding: 10px; border-radius: 10px;" type="email" placeholder="E-Mail-Adresse" name="emailadresse">
+          <input style="width: 100%; margin: 5px 0 40px 0; padding: 10px; border-radius: 10px;" type="password" placeholder="Passwort" name="password">
+          <button style="width: 100%; font-weight: bolder; text-align: center; background-color: red; padding: 10px; border-radius: 10px;">Login</button>
+          <br>
+          <p onclick="dialogregistrierung.showModal()" style="margin: 10px 0 5px 0; padding: 10px">Du hast noch kein Konto? <span style="color: red;"><b>Registrieren</b></span></p>
+          <p onclick="dialogverein.showModal(); dialog.close()" style="margin: 10px 0 5px 0; padding: 10px;"><span style="color: red;"><b>Du bist ein Verein?</b></span> Verifiziere dich hier, um eigene Veranstaltungen eintragen zu können</p>
+        </form>
+      </dialog>
+
+      <!--Das Fenster zur Registrierung wird geöffnet-->
+      <dialog id="dialogregistrierung">
+        <div class="dialogregistrierung-header">
+          <h2>Registrieren</h2><p onclick="dialog.close(); dialogregistrierung.close()" style="text-align: right;">&#10006</p>
+        </div>        
+        <form action="www.google.de" style="font-size: 25px; padding: 5px; text-align: center;" method="dialog">
+          <br><h3 style="color: #ccac00">Willkommen bei FeierTage.online</h3><br>
+          <p style="padding: 5px;">Registriere dich, um Veranstaltungen kommentieren zu können</p><br>
+          <input style="width: 100%; margin: 10px 0 5px 0; padding: 10px; border-radius: 10px;" type="email" placeholder="E-Mail-Adresse" name="emailadresse">
+          <input style="width: 100%; margin: 10px 0 5px 0; padding: 10px; border-radius: 10px;" type="name" placeholder="Vollständiger Name" name="name">
+          <input style="width: 100%; margin: 10px 0 5px 0; padding: 10px; border-radius: 10px;" type="username" placeholder="Benutzername" name="username">
+          <input style="width: 100%; margin: 5px 0 40px 0; padding: 10px; border-radius: 10px;" type="password" placeholder="Passwort" name="password">
+          <button onclick="dialog.close()" style="width: 100%; font-weight: bolder; text-align: center; background-color: red; padding: 10px; border-radius: 10px;">Registrieren</button>
+          <br>
+          <p onclick="dialogregistrierung.close()" style="margin: 10px 0 5px 0; padding: 10px">Du hast ein Konto? <span style="color: red;"><b>Melde dich an</b></span></p>
+        </form>
+      </dialog>
+
+      <!--Das Fenster zur Verifizierung für Vereine wird geöffnet-->
+      <dialog id="dialogverein">
+        <div class="dialogverein-header">
+          <h2>Verifizierung beantragen</h2><p onclick="dialog.close(); dialogverein.close()" style="text-align: right;">&#10006</p>
+        </div>        
+        <form action="www.google.de" style="font-size: 25px; padding: 5px; text-align: center;" method="dialog">
+          <br><h3 style="color: #ccac00">Willkommen bei FeierTage.online</h3><br>
+          <p style="padding: 5px;">Verifiziere deinen Verein hier, um eigene Veranstaltungen eintragen zu können</p><br>
+          
+          <button onclick="dialog.close()" style="width: 100%; font-weight: bolder; text-align: center; background-color: red; padding: 10px; border-radius: 10px;">Senden</button>
+          <br>
+          <p onclick="dialogverein.close(); dialog.showModal()" style="margin: 10px 0 5px 0; padding: 10px">Du hast ein Konto? <span style="color: red;"><b>Melde dich an</b></span></p>
+        </form>
+      </dialog>
+
+      <!--Das Fenster, um eine neue Veranstaltung eintragen zu können, wird geöffnet-->
+      <button onclick="dialogevent.showModal()">neue Veranstaltung</button>
+      <dialog id="dialogevent">
+        <div class="dialogevent-header">
+          <h2>neue Veranstaltung eintragen</h2><p onclick="dialogevent.close()" style="text-align: right;">&#10006</p>
+        </div>        
+        <form action="www.google.de" style="font-size: 20px; padding: 5px; text-align: center;" method="dialog"><br>
+          <label for="titel">Name der Veranstaltung</label><br><input style="width: 100%; margin: 10px 0 5px 0; padding: 10px; border-radius: 10px; font-size: 16px;" type="text" id="titel" name="titel" required><br>
+          <label for="place">Ort der Veranstaltung</label><input style="width: 100%; margin: 10px 0 5px 0; padding: 10px; border-radius: 10px; font-size: 16px;" type="text" id="place" name="place" required>
+          <label for="organizer">Veranstalter</label><input style="width: 100%; margin: 10px 0 5px 0; padding: 10px; border-radius: 10px; font-size: 16px;" type="text" id="organizer" name="organizer" required>
+          <label for="bilder">Bilder des Events</label><input style="text-align: center; width: 100%; margin: 10px 0 5px 0; padding: 10px; border-radius: 10px; font-size: 16px;" type="file" id="myFile" name="filename">
+          <label for="adresse">Adresse des Veranstaltungsortes</label><input style="width: 100%; margin: 10px 0 5px 0; padding: 10px; border-radius: 10px; font-size: 16px;" type="text" id="adresse" name="adresse" placeholder="z.B Beispielstraße 12, 10115 Berlin" required>
+          <label for="start">Start</label><input style="width: 100%; margin: 10px 0 5px 0; padding: 10px; border-radius: 10px; font-size: 16px;" type="datetime-local" id="start" name="start" required>
+          <label for="end">Ende</label><input style="width: 100%; margin: 10px 0 5px 0; padding: 10px; border-radius: 10px; font-size: 16px;" type="datetime-local" id="end" name="end">
+          <label for="eintritt">Eintritt</label><input style="width: 100%; margin: 10px 0 5px 0; padding: 10px; border-radius: 10px; font-size: 16px;" type="text" id="eintritt" name="eintritt">
+          <label for="description">Kurzbeschreibung</label><textarea style="width: 100%; margin: 10px 0 5px 0; padding: 10px; border-radius: 10px; font-size: 16px;" id="description" name="description" cols="35" rows="2"></textarea>
+          <p>erwartetes Klientel</p><br>
+          <input type="radio" id="jugendliche" name="jugendliche">
+          <label for="familien">Familien</label>
+          <input type="radio" id="familien" name="familien">
+          <label for="u30">u30</label>
+          <input type="radio" id="u30" name="u30">
+          <label for="ü30">ü30</label>
+          <input type="radio" id="ü30" name="ü30">
+          <label for="sonstiges">Sonstiges</label>
+          <input type="radio" id="sonstiges" name="sonstiges"><br><br>
+          <button style="width: 100%; font-weight: bolder; text-align: center; background-color: red; padding: 10px; border-radius: 10px;">neue Veranstaltung eintragen</button>
+          <br><br>
+        </form>
+      </dialog>
+
+    </div>
+    <div class="text_content_center">
+      <p>Herzlich Willkommen auf unserer neuen Website für alle</p><br>
+        <h2>FEIERLUSTIGEN</h2><br>
+        <p class="align_left">Wir möchten Euch mit unserer Seite die Möglichkeit geben nach Feiern, Veranstaltungen uvw. zu suchen und das 
+          alles lokal und kommunal in Eurer Nähe!<br><br><br>
+          Unsere Vorteile für Euch:</p><br>
+          <ul class="align_left">
+            <li>Immer aktuell informiert über anstehende Feiern in eurer Umgebung</li>
+            <li>Such- und Filterfunktion für eine bessere Auswahl</li>
+            <li>Einstellen der Informationen direkt von den Veranstaltern der Feiern</li>
+            <li>Erstelle ein Konto und lass einen Kommentar über das besuchte Event da, um anderen davon zu berichten</li>
+          </ul><br>
+        <p style="font-size: 25px;">Nun wünsche ich Ihnen viel Spass beim Erforschen der Seite und sicherlich bei finden eurer nächsten Feier!!</p><br>
+        <p style="font-size: 25px;">Party on!! wünschen Euch euer FeierTage.de-Team</p><br>
+        <p style="font-size: 45px;">Jan, Lucia & Robin</p>
+    </div>
+
+    <div class="rightsite">
+    </div>
+    <footer>
+      <p>&copy All Rights Reserved by Jan Scheffelmeier</p>
+      <p>Kontaktieren Sie mich unter: <a style="color: aliceblue" href="mailto:scheffelmeier_jan@teams.hs-ludwigsburg.de">Scheffelmeier_Jan@teams.hs-ludwigsburg.de</a></p>
+    </footer> 
+  </body>
+</html>
