@@ -1,0 +1,7 @@
+- Erstellung einer Anmeldemaske mittels HTML-Forms und CSS
+- Erstellung einer Registrierungsmaske
+- (Erstellung einer Verifizierungsmaske für Vereine)
+- Erstellung einer Eingabemaske, damit Vereine neue Veranstaltungen eintragen können
+
+- Jan hat zuvor ein Pop-Up-Fenster erstellt, in welche ich den Code der oben genannten eingefügt habe
+- Verknüpfung der Pop-Up-Fenster untereinander mit .showmodal() und .close() Funktionen
