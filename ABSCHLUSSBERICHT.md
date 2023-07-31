@@ -38,6 +38,6 @@ Auch bei der Erstellung der Kommentarfunktion habe ich mitgewirkt. In der Vorles
 Die Zusammenarbeit im Team hat aus meiner Sicht sehr gut funktioniert. Positiv fand ich insbesondere, dass jedes Projektmitglied sehr anpassungsfähig war und die Terminabsprache sich demnach als sehr unkompliziert gestaltet hat. 
 Die Tatsache, dass die Website nur auf einem Server laufen kann, erschwerte uns die Arbeit ein wenig. Zur Veranschaulichung haben wir deshalb die Ordnerstruktur meines Servers in GitHub nachgebaut.
 Aufrund der Tatsache, dass die Website nur auf einem Server laufen konnte, haben wir uns in den letzten Wochen des zweiten Semesters oft zusammengesetzt und gemeinsam an der Voranbringung unseres Projektes gearbeitet. Als Beispiel hierfür die Erstellung der Kommentarfunktion, die ich bereits erwähnt habe. 
-
 <h2>Fazit</h2>
-
+Zugegebenermaßen war ich zu Beginn des Projekts etwas skeptisch, als mir die Vorbereitung der Serverinstanz zugeteilt wurde. Während Herr Scheffelmeier bereits Erfahrungen in diesem Bereich gesammelt hatte und auch Herr Hospotzki schon ein gewisses Verständnis davon hatte, konnte ich mit diesem Thema gar nichts anfangen. Nachdem wir jedoch gelernt haben, mit Django umzugehen und ich mich auch außerhalb der Vorlesungen einige Stunden mit dem Thema beschäftigt habe, viel es mir gar nicht mehr schwer
+Zusammenfassend lässt sich sagen, dass ich während des zweiten Semesters vorallem einen Überblick über FrontEnd, BackEnd und den Zusammenhang deren bekommen habe. Darüber hinaus habe ich gelernt, Websiten zu veröffentl Im Kontext der Digitalisierung werde ich in meiner späteren Einsatzstelle vermutlich mit einigen dieser Themen in Berührung kommen weshalb das in diesem Semester Erlernte eine wertvolle Erfahrung für mich darstellt.
