@@ -23,8 +23,14 @@ Im Bereich der Projektplanung haben wir zu dritt ein Gantt-Diagramm erstellt und
 <img width="456" alt="Bildschirmfoto 2023-07-31 um 11 17 18" src="https://github.com/lucia2801/lucia2801/assets/131368798/037d5ed0-1a2f-48a1-a499-9bea10842182"><br>
 
 Zur Besprechung des Fortschritts unses Projektes haben wir ursprünglich geplant, uns regelmäßig montags und mittwochs zu treffen. Aus zeitlichen Gründen konnten wir diese Termine jedoch nicht immer einhalten. Im Bereich des Organisatorischen habe ich also des Öfteren die Terminabsprachen geleitet. 
-Im Bereich des Technischen habe ich
 
-<img width="996" alt="Bildschirmfoto 2023-07-31 um 14 18 12" src="https://github.com/lucia2801/lucia2801/assets/131368798/701c2240-082f-479e-9655-ee55d07d65e6">
+Unsere Sorge war, dass jede beliebige Person unsere Veranstaltungen kommentieren kann. Wir haben uns überlegt, deshalb die Kommentar- und Bewertungsfunktion nur nach erfolgter Registrierung zu ermöglichen. Nachdem Herr Scheffelmeier ein Pop-Up-Fenster erstellt hat, habe ich mittels HTML-Forms und CSS den Code für eine Registrierungs- und Anmeldemaske für den User geschrieben. Damit die Gemeinden und Vereine neue Veranstaltungen eintragen können, habe ich zusätzlich eine Eingabemaske erstellt, um von den Vereinen Informationen über Veranstaltungsort, Veranstaltungszeit usw. anzufragen. Mit .showmodal() und .close() Funktionen gelang mir die Verknüpfung der jeweiligen Pop-Up-Fenster untereinander.
+Im Folgenden sieht man zur Veranschaulichung den Code für die Registrierungsmaske, in dem ich die oben genannten Funktionen eingebaut habe, um im Falle einer bereits erfolgten Registrierung zum Anmeldefenster zu gelangen.
+
+<img width="996" alt="Bildschirmfoto 2023-07-31 um 14 18 12" src="https://github.com/lucia2801/lucia2801/assets/131368798/701c2240-082f-479e-9655-ee55d07d65e6"><br>
+
+Eine Voraussetzung für unseren Veranstaltungskalender war, dass nur Gemeinden und Vereine neue Veranstaltungen posten können. Um dies zu gewährleisten, habe ich eine Verifizierungsmaske für Vereine erstellt. Abgefragt weren hier der Vereinsname, ein Ansprechpartner, die E-MAil-Adresse und die Vereinsregisternummer (VR-Nummer) des Vereins. Ziel war es, mit Betätigen des Bestätigungsbuttons diese Informationen automatisch per Mail an Hernn Scheffelmeier, Herrn Hospotzki und mich zu schicken, damit wir anschließend überprüfen können, ob diese Vereinsregisternummer im Vereinsregister vorhanden ist und es sich um einen offiziell eingetragenen Verein handelt. Mit folgendem Code ist es mir gelungen, eine E-Mail zu erstellen, in dem die oben abgefragten Informationen aufgelistet dargestellt werden. Allerdins bewirkte dieser Code nur die Öffnung des E-Mail-Programms und der erstellten E-Mail und nicht wie gewünscht die automatische Versendung dieser Mail. Da dieser Vorgang nicht besonders nutzerfreundlich wäre, recherchierte ich im Internet, ob es Möglichkeiten gibt, dieses Problem zu beheben. Mittels PHP
+
+<img width="1309" alt="Bildschirmfoto 2023-07-31 um 15 47 12" src="https://github.com/lucia2801/lucia2801/assets/131368798/36654982-dfde-4346-bcc9-aec49fd3533b">
 
 <h2>Zusammenarbeit im Team</h2>
