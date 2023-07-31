@@ -16,3 +16,5 @@ Im Rahmen des zweiten Semesters habe ich mir deshalb gemeinsam mit Herrn Scheffe
 Darüber hinaus soll es eine Bewertungsfunktion und nach registrierter Anmeldung eine Kommentarfunktion geben, um vergangene Veranstaltungen kommentieren und bewerten zu können.
 
 Unser Projekt haben wir in FrontEnd, BackEnd, die Vorbereitung der Serverinstanz und die Testphase untergliedert. Als Verantworlichen im Bereich FrontEnd bestimmten wir Herrn Hospotzki, aufgrund seines bereits vorhandenen technischen Vorwissens durfte Herr Scheffelmeier das BackEnd, beziehungsweise die Verbindung von FrontEnd und BackEnd übernehmen. Die Vorbereitung der Serverinstanz sowie die Testphase vielen in meinen Aufgabenbereich. 
+
+<img width="456" alt="Bildschirmfoto 2023-07-31 um 11 17 18" src="https://github.com/lucia2801/lucia2801/assets/131368798/037d5ed0-1a2f-48a1-a499-9bea10842182">
