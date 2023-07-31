@@ -17,8 +17,11 @@ Darüber hinaus soll es eine Bewertungsfunktion und nach registrierter Anmeldung
 
 Unser Projekt haben wir in FrontEnd, BackEnd, die Vorbereitung der Serverinstanz und die Testphase untergliedert. Als Verantworlichen im Bereich FrontEnd bestimmten wir Herrn Hospotzki, aufgrund seines bereits vorhandenen technischen Vorwissens durfte Herr Scheffelmeier das BackEnd, beziehungsweise die Verbindung von FrontEnd und BackEnd übernehmen. Die Vorbereitung der Serverinstanz sowie die Testphase vielen in meinen Aufgabenbereich. 
 
-Im Bereich der Projektplanung haben wir zu dritt ein Gantt-Diagramm erstellt und darin die für die Durchführung des Projekts nötigen Aufgaben und Ereignisse festgeshalten. Meine Aufgabe war es, dieses Diagramm zu verfeinern und mir zu überlegen, 
+Im Bereich der Projektplanung haben wir zu dritt ein Gantt-Diagramm erstellt und darin die für die Durchführung des Projekts nötigen Aufgaben und Ereignisse festgeshalten. Meine Aufgabe war es, dieses Diagramm zu verfeinern und mir zu überlegen, bis wann wir diese Aktivitäten abgeschlossen haben möchten. Im Nachfolgenden sieht man den ersten Entwurf unseres Gant-Diagramms vom April. Wie man dem Diagramm entnehmen kann, war unser Ziel, das Projekt bis zum 01.07.2023 abzuschließen. ...
 
-<img width="456" alt="Bildschirmfoto 2023-07-31 um 11 17 18" src="https://github.com/lucia2801/lucia2801/assets/131368798/037d5ed0-1a2f-48a1-a499-9bea10842182">
+<img width="456" alt="Bildschirmfoto 2023-07-31 um 11 17 18" src="https://github.com/lucia2801/lucia2801/assets/131368798/037d5ed0-1a2f-48a1-a499-9bea10842182"><br>
+
+Zur Besprechung des Fortschritts unses Projektes haben wir ursprünglich geplant, uns regelmäßig montags und mittwochs zu treffen. Aus zeitlichen Gründen konnten wir diese Termine jedoch nicht immer einhalten. Im Bereich des Organisatorischen habe ich also des Öfteren die Terminabsprachen geleitet. 
+Im Bereich des Technischen habe ich 
 
 
